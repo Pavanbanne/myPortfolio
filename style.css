@@ -1,12 +1,37 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: linear-gradient(to right, #090c3be9, #080808);
+    background: linear-gradient(45deg, #280550, #089cace7);
 
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
+}
+nav{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.687);
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+   
+}
+nav a:hover{
+    background-color: white;
+    color: #080808;
+     transition: all 0.2s ease-in ;
+
+}
+hr{
+    margin: 0;
+    padding: 0;
+    border: 1.5px dotted salmon;
+
 }
  section p ,li {
     text-align: left !important;
@@ -31,29 +56,12 @@ header {
     /* color: white; */
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-    text-emphasis-color: black;
-
-}
 #contact a{
     /* display: inline-block; */
     justify-content: space-around;
     padding: .5rem;
 }
 
-nav ul li a {
-    color: rgb(244, 244, 244);
-    text-decoration: none;
-    font-weight: bold;
-}
 
 section {
     padding: 20px;
@@ -62,22 +70,34 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(88, 67, 67, 0.904);
 }
+section h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #14ee0c;
+}
 section a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
-.project a {
+.exp h5{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #ffe3d5;
+}
+.exp a {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
+    margin-top:2px;
+    padding: 5px 7px;
     background: #ff5e62;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-.project a:hover {
+.exp a:hover {
     background: #ff9966;
     
 }
